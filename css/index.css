@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Avenir;
+    src: url('./fonts/AvenirLTStd-Black.otf');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Avenir;
+    src: url('./fonts/AvenirLTStd-Roman.otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+
+
+body{
+    margin: 0;
+}
+
+.layout1{
+    background-color: #000000;
+    float: left;
+    width: 290px;
+    height: 600px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    flex-direction: column;
+}
+.logo{
+    margin: 24px;
+    width: 130px;
+    height: 41px;
+    color: white;
+}
+.list-title {
+    font-family: Avenir;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    list-style: none;
+  }
+.layout2{
+    background-color: #121212;
+    float: left;
+
+}
