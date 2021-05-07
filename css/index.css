@@ -1,3 +1,5 @@
+@import './icons.css';
+
 @font-face {
     font-family: Avenir;
     src: url('./fonts/AvenirLTStd-Black.otf');
@@ -35,14 +37,37 @@ body{
     height: 41px;
     color: white;
 }
+.list{
+  padding: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+}
+.list-item{
+  width: 270px;
+  height: 30px;
+  align-items: center;
+  padding-top: 10px;
+  border-radius: 5px;
+  color: #b3b3b3;
+  cursor: pointer;
+}
 .list-title {
     font-family: Avenir;
     font-weight: bold;
-    color: white;
-    margin-top: 15px;
-    margin-bottom: 15px;
     list-style: none;
+    padding-left: 20px;
   }
+.list-item:hover{
+  color: white
+}
+  .list-text{
+    margin-left: 15px;
+  }
+.list-item:active{
+  background-color: #282828;
+
+}
 .layout2{
     background-color: #121212;
     float: left;
