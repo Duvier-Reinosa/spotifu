@@ -49,18 +49,26 @@ body{
   align-items: center;
   padding-top: 10px;
   border-radius: 5px;
-  color: #b3b3b3;
+  color: white;
+  opacity: 60%;
   cursor: pointer;
+  transition: opacity .5s;
+}
+.list-item:hover{
+  opacity: 100%;;
 }
 .list-title {
     font-family: Avenir;
     font-weight: bold;
     list-style: none;
     padding-left: 20px;
+    display: flex;
+    align-items: center;
   }
-.list-item:hover{
-  color: white
+.list-title i{
+    font-size: 24px;
 }
+
   .list-text{
     margin-left: 15px;
   }
@@ -68,6 +76,69 @@ body{
   background-color: #282828;
 
 }
+.list2{
+  padding: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+}
+.list-item2 {
+  width: 270px;
+  height: 30px;
+  align-items: center;
+  padding-top: 10px;
+  border-radius: 5px;
+  color: white;
+  opacity: 65%;
+  cursor: pointer;
+  transition: opacity .5s;
+}
+.list-item2:hover{
+  opacity: 100%;
+}
+.list-title2 {
+  font-family: Avenir;
+  font-weight: bold;
+  list-style: none;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.list-title2 img{
+  font-family: Avenir;
+  font-weight: bold;
+  list-style: none;
+  height: 24px;
+  margin-right: 15px;
+ 
+}
+.line-div{
+  margin: 0;
+  width: 240px;
+  margin-left: 30px;
+  height: 1px;
+  background: white;
+  opacity: 60%;
+}
+.playlists {
+  list-style: none;
+  padding: 0;
+  margin-top: 0px;
+  margin-left: 30px;
+  font-family: Avenir;
+}
+.playlist{
+  color: white;
+  opacity: 60%;
+  margin-top: 22px;
+  font-size: 15px;
+}
+.playlist:hover{
+
+  opacity: 100%;
+
+}
+
 .layout2{
     background-color: #121212;
     float: left;
